@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::group(['namespace' => 'Carro'], function () {
+    Route::resource('carro', 'CarroCrudController');
+});
+
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
