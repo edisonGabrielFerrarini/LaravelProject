@@ -10,6 +10,8 @@
 
     <h1>Home</h1>
 
+    <p>Pagina inicial</p>
+
     <div>
     <a href="{{ route('carro.index') }}">Ir para Carros</a>
     </div>
